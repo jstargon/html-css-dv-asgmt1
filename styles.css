@@ -1,0 +1,125 @@
+/* Notes:
+flex-direction:
+justify-content 
+align-items:
+flex-wrap: 
+align-content: 
+gap: 
+*/
+
+.page{
+  border-style: solid;
+}
+
+p{
+  font-size:14px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: Arial;
+  font-size: 14px;
+}
+
+.page{
+  width: 8.5in;
+  height: 11in;
+}
+
+.top{
+  height: 20%;
+  display: flex;
+  background-color: rgb(231, 229, 229);
+  justify-content: space-between;
+  align-items: center;
+  border-bottom-style: solid;
+  border-color: rgb(251, 210, 106);
+  border-width: 0.05in
+}
+
+.bottom{
+  display: flex;
+}
+
+
+.section{
+  display: flex;
+  flex-direction: row;
+  margin-top: 0em;
+  
+}
+
+.details{
+ display:flex;
+ flex-direction: column;
+ margin: 1em;
+}
+
+.name{
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.job{
+  margin-top:0;
+}
+
+.information{
+  font-size: 12px;
+  margin: 1em;
+}
+
+.topic{
+
+  width: 20%;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  align-self: flex-start;
+  margin: 1em;
+  margin-top: 2em;
+
+}
+
+.sub-topic{
+  font-size: 14px;
+  font-weight: bold;
+
+}
+
+#personal-profile .topic-information{
+  margin-top: 2em;
+}
+
+.topic-information{
+  display: flex;
+  width: 80%;
+  font-size: 14px;
+  margin:1em;
+  flex-direction: column;
+}
+
+.topic-information-row{
+  display: flex;
+  width: 80%;
+  font-size: 14px;
+  margin: 1em;
+  flex-direction: row;
+  gap: 50px;
+  margin-top: 1.5em;
+}
+
+.skills p {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-top: 0.05in;
+  margin-bottom: 0.05in;
+  padding: 1; 
+}
+
+hr{
+  width: 96%;
+}
